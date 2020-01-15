@@ -4,7 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-//import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+
 
 
 public class Module2 {
@@ -16,6 +17,10 @@ try {
 //Initializing the ChromeDriver	
 System.setProperty("webdriver.chrome.driver", "C:\\Users\\sarat\\Downloads\\Selenium_Drivers\\chromedriver.exe");
 driver = new ChromeDriver();
+
+//Initializing the FirefoxDriver	
+//System.setProperty("webdriver.chrome.driver", "C:\\Users\\sarat\\Downloads\\Selenium_Drivers\\geckodriver.exe");
+//driver = new FirefoxDriver();
 
 //Navigating to Edureka site
 driver.get("https://www.edureka.co");
